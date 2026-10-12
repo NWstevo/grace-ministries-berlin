@@ -1,0 +1,15 @@
+/Website Content
+/church-app
+/Context-images
+node_modules/
+
+# OS / editor
+.DS_Store
+.claude/
+.vscode/
+.idea/
+
+# env & logs
+.env*
+!.env.example
+*.log
