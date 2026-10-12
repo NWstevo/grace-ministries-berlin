@@ -43,6 +43,14 @@ export const site = {
   },
 } as const;
 
+// Online giving links. Leave empty until each is set up; an empty link shows as "Coming soon" on the Give page.
+export const giving = {
+  paypal: "", // e.g. a PayPal donate link: https://www.paypal.com/donate/?hosted_button_id=...
+  googlePay: "", // e.g. a Google Pay / payment-link URL
+  applePay: "", // e.g. an Apple Pay / payment-link URL
+  stripe: "", // e.g. a Stripe Payment Link: https://donate.stripe.com/...
+};
+
 export type NavItem = {
   label: string;
   href: string;
